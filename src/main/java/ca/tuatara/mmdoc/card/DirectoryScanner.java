@@ -36,7 +36,7 @@ public class DirectoryScanner {
         }
     }
 
-    private List<Card> loadCards() {
+    public List<Card> loadCards() {
         List<Card> cards = new ArrayList<Card>();
 
         File cardSets = new File(gameDataDirectory, CARDS_SET_FILE);
